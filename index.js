@@ -14,8 +14,7 @@ app.use(bodyParser.json());
 
 
 app.get('/',async(req,resp)=>{
-    let data=await ud.find();
-    resp.send(data+"hih");
+    resp.send("hih");
 })
 
 app.listen(Port,()=>{
